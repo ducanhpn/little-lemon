@@ -11,7 +11,7 @@ export default function Main(){
     const about="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     return (
         <>
-        <section id="hero-section">
+        <section id="hero-section" className="grid-12">
             <div>
                 <h1>Little Lemon</h1>
                 <h2>Chicago</h2>
@@ -23,8 +23,8 @@ export default function Main(){
         </section>
         <section id="highlight-section">
             <div>
-                <h1>Special</h1>
-                <button>online menu</button>
+                <h1 id="h1-special">Special</h1>
+                <button id="online-menu-button">online menu</button>
             </div>
             <section id="card-section">
                 <Card image={GreekSalat} alt="greek salat" name="Greek Salat" price="12.99" description={description} />

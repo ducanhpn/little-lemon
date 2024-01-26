@@ -1,15 +1,78 @@
+body {
+  width: 100%;
+}
 .grid-12 {
+  margin:0 20px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
+
+/*Header*/
 header > img{
   grid-column: 2/ span 2;
 }
 
 header > nav {
-  grid-column: 5/ span 6 ;
-  border: 1px;
+  grid-column: 5/ 13 ;
+  border: 1px black solid;
 }
 ul.header{
   display: flex;
+  gap: 2em;
+}
+/*Hero Section*/
+#hero-section > div {
+  grid-column: 1 / span 6;
+}
+
+#hero-section > img {
+  grid-column: 9/ span 4;
+}
+
+/*Highlight Section*/
+
+#highlight-section {
+  margin: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: 100px 3fr;
+}
+
+#highlight-section > div {
+  grid-column: 1 / span 12;
+  margin: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  align-items: center;
+}
+
+#h1-special {
+  grid-column: 2/ span 2;
+}
+
+#online-menu-button {
+  grid-column: 10 / span 2;
+}
+
+#card-section {
+  grid-column: 1 / span 12;
+  margin: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 70%;
+  padding: 16px;
+  border: 1px black solid;
+}
+.card > img {
+  width: 100%;
 }
