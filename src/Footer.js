@@ -6,7 +6,7 @@ export default function Footer(){
         <img src={restaurant} alt="restaurant view" width="200"></img>
         <div>
             <h3>Navigation Links</h3>
-            <Nav />
+            <Nav position="footer" />
         </div>
         <div>
             <h3>Contact</h3>

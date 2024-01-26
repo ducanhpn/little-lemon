@@ -4,6 +4,7 @@ import Bruchetta from "./Assets/bruchetta.svg"
 import LemonDessert from "./Assets/lemon dessert.jpg"
 import PersonImage from "./Assets/Mario and Adrian A.jpg"
 import Card from "./Card"
+import Rating from "./Rating"
 
 export default function Main(){
     const description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
@@ -33,6 +34,10 @@ export default function Main(){
         </section>
         <section id="testimonial-section">
             <h1>Testimonials</h1>
+            <Rating />
+            <Rating />
+            <Rating />
+            <Rating />
         </section>
         <section id="about-section">
             <div>

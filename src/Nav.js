@@ -1,6 +1,6 @@
-export default function Nav(){
+export default function Nav({position}){
     return <nav>
-        <ul>
+        <ul className={position}>
             <li><a href="">Home</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Reservations</a></li>
