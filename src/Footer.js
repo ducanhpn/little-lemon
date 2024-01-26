@@ -2,7 +2,7 @@ import restaurant from "./Assets/restaurant.jpg"
 import Nav from "./Nav"
 
 export default function Footer(){
-    return <footer>
+    return <footer className="grid-12">
         <img src={restaurant} alt="restaurant view" width="200"></img>
         <div>
             <h3>Navigation Links</h3>
