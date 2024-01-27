@@ -3,12 +3,12 @@ import Nav from "./Nav"
 
 export default function Footer(){
     return <footer className="grid-12">
-        <img src={restaurant} alt="restaurant view" width="200"></img>
-        <div>
+        <img src={restaurant} alt="restaurant view" width="200" className="span-3"></img>
+        <div className="span-2 two-rows">
             <h3>Navigation Links</h3>
             <Nav position="footer" />
         </div>
-        <div>
+        <div className="span-2 two-rows">
             <h3>Contact</h3>
             <ul>
                 <li>Adress</li>
@@ -16,7 +16,7 @@ export default function Footer(){
                 <li>Email</li>
             </ul>
         </div>
-        <div>
+        <div className="span-2 two-rows">
             <h3>Social Media Link</h3>
             <ul>
                 <li>Adress</li>

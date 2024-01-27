@@ -14,7 +14,6 @@ header > img{
 
 header > nav {
   grid-column: 5/ 13 ;
-  border: 1px black solid;
 }
 ul.header{
   display: flex;
@@ -32,9 +31,6 @@ ul.header{
 /*Highlight Section*/
 
 #highlight-section {
-  margin: 0 20px;
-  display: grid;
-  grid-template-columns: repeat(12,1fr);
   grid-template-rows: 100px 3fr;
 }
 
@@ -75,4 +71,52 @@ ul.header{
 }
 .card > img {
   width: 100%;
+}
+
+/*Testimonials*/
+#testimonial-section > h1 {
+  grid-column: 1/ span 12;
+}
+
+.Rating {
+  grid-column: span 3;
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.span-2 {
+  grid-column: span 2;
+}
+
+/*about section*/
+.span-8 {
+  grid-column: span 8;
+}
+.span-12 {
+  grid-column: span 12;
+}
+
+.span-4 {
+  grid-column: span 4;
+}
+.center {
+  align-self: center;
+  justify-self: center;
+}
+/*Footer*/
+.span-3{
+  grid-column: span 3;
+}
+.span-2{
+  grid-column: span 2;
+}
+ul{
+  padding:0;
+}
+.two-rows {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 40% auto;
 }

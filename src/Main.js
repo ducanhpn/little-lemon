@@ -21,7 +21,7 @@ export default function Main(){
             </div>
             <img src={ImageHeroSection} alt="restaurant food" width="200"></img>
         </section>
-        <section id="highlight-section">
+        <section id="highlight-section" className="grid-12">
             <div>
                 <h1 id="h1-special">Special</h1>
                 <button id="online-menu-button">online menu</button>
@@ -32,20 +32,20 @@ export default function Main(){
                 <Card image={LemonDessert} alt="Lemon Dessert" name="Lemon Dessert" price="11.99" description={description} />
             </section>
         </section>
-        <section id="testimonial-section">
+        <section id="testimonial-section" className="grid-12">
             <h1>Testimonials</h1>
             <Rating />
             <Rating />
             <Rating />
             <Rating />
         </section>
-        <section id="about-section">
-            <div>
-                <h1>Little Lemon</h1>
+        <section id="about-section" className="grid-12">
+            <div className="span-8">
+                <h1 className="span-12">Little Lemon</h1>
                 <h2>Chicago</h2>
                 <p>{about}</p>
             </div>
-            <img src={PersonImage} alt="Mario and Ajan" width="200"></img>
+            <img src={PersonImage} alt="Mario and Ajan" width="200" className="span-4 center"></img>
         </section>
         </>
     );
