@@ -1,4 +1,5 @@
 import './Layout.css';
+import './Style.css'
 import Header from './Header';
 import Footer from './Footer';
 import Main from "./Main";

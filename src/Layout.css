@@ -2,7 +2,7 @@ body {
   width: 100%;
 }
 .grid-12 {
-  margin:0 20px;
+  padding: 0 20px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
@@ -23,9 +23,15 @@ ul.header{
 #hero-section > div {
   grid-column: 1 / span 6;
 }
+.bottom{
+  justify-self: center;
+  align-self: end;
+}
 
 #hero-section > img {
   grid-column: 9/ span 4;
+  position: relative;
+  top: 30px;
 }
 
 /*Highlight Section*/
@@ -42,7 +48,7 @@ ul.header{
   align-items: center;
 }
 
-#h1-special {
+#h2-special {
   grid-column: 2/ span 2;
 }
 
@@ -67,14 +73,13 @@ ul.header{
 .card {
   width: 70%;
   padding: 16px;
-  border: 1px black solid;
 }
 .card > img {
   width: 100%;
 }
 
 /*Testimonials*/
-#testimonial-section > h1 {
+#testimonial-section > h2 {
   grid-column: 1/ span 12;
 }
 

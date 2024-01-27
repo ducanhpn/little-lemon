@@ -3,7 +3,7 @@ import Nav from "./Nav"
 
 export default function Footer(){
     return <footer className="grid-12">
-        <img src={restaurant} alt="restaurant view" width="200" className="span-3"></img>
+        <img src={restaurant} alt="restaurant view" width="200" height="210" className="span-3 center"></img>
         <div className="span-2 two-rows">
             <h3>Navigation Links</h3>
             <Nav position="footer" />

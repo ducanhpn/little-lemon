@@ -1,0 +1,76 @@
+:root{
+    --main-color: #495e57;
+    --lemon-color: #f4ce14;
+    --highligth-color-grey: #edefee;
+    --highligth-color-dark: #333333;
+    --markarzi: "Markarzi Text";
+    --karla: "Karla";
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--markarzi);
+}
+h1{
+    font-size: 60pt;
+    font-weight: bold;
+}
+h2{
+    font-size: 40pt;
+    font-weight: 600;
+}
+h3,h4 {
+    font-size: 18pt;
+    line-height: 1.5rem;
+}
+p{
+    font-family: var(--karla);
+    font-size: 16pt;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:var(--highligth-color-grey)
+}
+a:link{
+    color:var(--lemon-color);
+}
+
+a:visited {
+    color: black;
+}
+a:hover{
+    color: var(--highligth-color-grey);
+    background-color: var(--highligth-color-dark);
+}
+
+#hero-section{
+    background-color: var(--main-color);
+}
+#hero-section>img{
+    border-radius: 20px;
+}
+
+.grey {
+    background-color: var(--highligth-color-grey);
+}
+.card {
+    background-color: var(--highligth-color-grey);
+}
+.Rating {
+    background-color: white;
+    border-radius: 16pt ;
+    padding: 1.5rem;
+}
+
+footer{
+    background-color: var(--main-color);
+}
+
+button {
+    background-color: var(--lemon-color);
+    font-family: var(--markarzi);
+    font-size: 16pt;
+    padding: 8px auto;
+    border-radius: 1rem;
+}

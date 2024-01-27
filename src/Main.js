@@ -19,11 +19,11 @@ export default function Main(){
                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <button>reserve a table</button>
             </div>
-            <img src={ImageHeroSection} alt="restaurant food" width="200"></img>
+            <img src={ImageHeroSection} alt="restaurant food" width="300" height="400" className="bottom"></img>
         </section>
         <section id="highlight-section" className="grid-12">
             <div>
-                <h1 id="h1-special">Special</h1>
+                <h2 id="h2-special">Special</h2>
                 <button id="online-menu-button">online menu</button>
             </div>
             <section id="card-section">
@@ -32,8 +32,8 @@ export default function Main(){
                 <Card image={LemonDessert} alt="Lemon Dessert" name="Lemon Dessert" price="11.99" description={description} />
             </section>
         </section>
-        <section id="testimonial-section" className="grid-12">
-            <h1>Testimonials</h1>
+        <section id="testimonial-section" className="grid-12 grey">
+            <h2>Testimonials</h2>
             <Rating />
             <Rating />
             <Rating />
