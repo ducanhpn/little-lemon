@@ -1,11 +1,13 @@
+import { Link } from "react-router-dom"
+import { HashLink } from "react-router-hash-link"
 export default function Nav({position}){
     return <nav>
         <ul className={position}>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Reservations</a></li>
-            <li><a href="">Order Online</a></li>
-            <li><a href="">Login</a></li>
+            <li><Link to="/">Home</Link></li>
+            <li><HashLink smooth to="/#about-section">About</HashLink></li>
+            <li><Link to="/booking">Reservations</Link></li>
+            <li><HashLink to="/#highlight-section">Order Online</HashLink></li>
+            <li><HashLink to="/#testimonial-section">Users talk about us</HashLink></li>
         </ul>
     </nav>
 }

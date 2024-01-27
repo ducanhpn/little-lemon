@@ -33,11 +33,11 @@ a{
     color:var(--highligth-color-grey)
 }
 a:link{
-    color:var(--lemon-color);
+    color:black;
 }
 
 a:visited {
-    color: black;
+    color: var(--highligth-color-dark);
 }
 a:hover{
     color: var(--highligth-color-grey);
