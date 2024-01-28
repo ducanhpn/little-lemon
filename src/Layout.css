@@ -125,3 +125,7 @@ ul{
   grid-template-columns: 1fr;
   grid-template-rows: 40% auto;
 }
+
+.text-center{
+  text-align: center;
+}
